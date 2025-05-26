@@ -8,6 +8,7 @@ import "../styles/dashboard.css";
 
 const Dashboard = () => {
 
+  console.log(import.meta.env.VITE_API_URL)
   return (
     <>
       <div className="dashboard">
